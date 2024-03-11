@@ -18,6 +18,8 @@ print(number_list[0])
 print(number_list[1])
 print(number_list[4])
 print(number_list[8])
+ 
+print(number_list[1] + number_list[4] + number_list[7])
 
 
 
@@ -26,6 +28,3 @@ print(number_list[8])
 
 
 
-
-
-numb_list = [33, 39, 45]

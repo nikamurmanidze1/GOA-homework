@@ -5,5 +5,7 @@ print(500 + 600)
 print(800 % 4 == 0)
 print(10 >= 10)
 print(10 * 15)
-
+print(10 > 15)
+print(100 * 5 % 4)
+print(600 % 4 * 7 + 200)
 
