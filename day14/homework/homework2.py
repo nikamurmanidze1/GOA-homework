@@ -4,5 +4,5 @@ def word(w):
         print(f"{w} is a palpindrom")
     else:
         print(f"{w} is not a palpindrom")
-word1 = "kanafi"
+word1 = "level"
 word(word1)

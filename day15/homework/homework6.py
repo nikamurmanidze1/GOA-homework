@@ -14,5 +14,22 @@ def luwebi(sia):
         else:
             kenti += i
     return luwi,kenti
-sia = [1,2,3,4,5]
-print(luwebi(sia))
+
+
+def num_list(sia):
+    len(sia)
+
+def custom_replace(string, old, new):
+    string.replace(old, new)
+
+
+
+def custom_join(list,gamyofi=''):
+    if not list:
+        return ''
+    
+    result=str(list[0])
+    for i in list[1:]:
+        result += gamyofi + str(i)
+        
+    return result

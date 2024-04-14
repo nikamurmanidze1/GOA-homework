@@ -13,7 +13,7 @@ def calculator(operation,num1,num2):
     else:
         return"Error"
 
-print(calculator("add", 1,5))
+
     
 
     
