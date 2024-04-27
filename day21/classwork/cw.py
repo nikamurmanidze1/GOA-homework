@@ -19,3 +19,15 @@ def manual_index(collection, value):
 
 
 print(manual_index("Luka", "L"))
+
+def manual_index(colleciition,value):
+
+    for index in range(0, len(colleciition)):
+        if colleciition[index] == value:
+            return index
+    return -1
+
+print(manual_index("karaarararaaasddddddddddddaaaafdbshjfsdfb" , "d"))
+
+        
+
