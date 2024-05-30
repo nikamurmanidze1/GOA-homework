@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>მომხმარებლის ფორმა</title>
+</head>
+<body>
+    <h1>მომხმარებლის ფორმა</h1>
+    <form action="/submit">
+        <label for="firstName">სახელი:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">გვარი:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="email">ემაილი:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">ტელეფონის ნომერი:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="country">აირჩიეთ ქვეყანა:</label><br>
+        <select id="country" name="country" required>
+            <option value="georgia">საქართველო</option>
+            <option value="usa">აშშ</option>
+            <option value="germany">გერმანია</option>
+            <option value="france">საფრანგეთი</option>
+        </select><br><br>
+
+        <label>გენდერი:</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">ქალი</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">კაცი</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
